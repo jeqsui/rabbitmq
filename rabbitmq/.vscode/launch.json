@@ -1,0 +1,27 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ServerDedicatedQueues",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build-ServerDedicatedQueues",
+			"program": "${workspaceFolder}/ServerDedicatedQueues/bin/Debug/net6.0/ServerDedicatedQueues.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/ServerDedicatedQueues",
+			"console": "externalTerminal",
+			"stopAtEntry": false
+		},
+		{
+			"name": "ClientDedicatedQueues",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build-ClientDedicatedQueues",
+			"program": "${workspaceFolder}/ClientDedicatedQueues/bin/Debug/net6.0/ClientDedicatedQueues.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/ClientDedicatedQueues",
+			"console": "externalTerminal",
+			"stopAtEntry": false
+		},
+	]
+}
